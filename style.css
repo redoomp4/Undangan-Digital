@@ -10,7 +10,7 @@
 .body {
     font-size: 1.2rem;
     font-family: "Work Sans", sans-serif;
-    min-height: 4000px;
+    min-height: 300px;
 }
 
 
@@ -351,7 +351,7 @@
 }
 
 /** tablet */
-@media (max-width: 400px) {
+@media (max-width: 768px) {
     html {
         font-size: 65%;
     }
@@ -360,17 +360,14 @@
         padding: 45px;
         margin: 5px;
     }
-    .mynavbar .nav-link {
-        font-size: 2rem;
-        text-align: center;
-    }
+
     
 }
 
 
 
 /** mobile phone */
-@media (max-width: 200px) {
+@media (max-width: 576px) {
     html {
         font-size: 60%;
     }
@@ -379,7 +376,6 @@
         padding: 40px;
         margin: 5px;
     }
-    
     .mynavbar .nav-link {
         font-size: 2rem;
         text-align: center;
