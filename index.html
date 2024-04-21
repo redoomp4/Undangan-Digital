@@ -126,7 +126,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 col-10 text-center">
-          <h2>Informasi Acara</h2>
+          <h2></h2>
           <p class="alamat">Alamat: Gedung Victory <br>Jl. Jenderal Sudirman No.429, Damai, <br>Balikpapan Selatan, Kota
             Balikpapan,Kalimantan Timur 76114 <!--berikan alamat--></p>
           <iframe
@@ -405,7 +405,18 @@
     disableScroll();
 
   </script>
+ <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const nama = urlParams.get('nama');
+    const pronoun = urlParams.get
+    console.log(nama);
 
+    const namaContainer = document.querySelector('.hero h2 span');
+    namaContainer.innerText = nama;
+
+
+    document.querySelector('#nama').value = nama;
+  </script>
   <script>window.addEventListener("load", function () {
       const form = document.getElementById('my-form');
       form.addEventListener("submit", function (e) {
