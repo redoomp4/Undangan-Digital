@@ -1,3 +1,4 @@
+
 :root {
     --pink: #f14e95;
     --bg: #0a0a0a;
@@ -139,10 +140,12 @@
 .home .couple {
     margin-top: 30px;
 }
-.home .couple .redo h3 {
+.home .couple .redo {
     padding-top: 2.5rem;
 }
-
+.home .couple .eki  {
+    padding-bottom: 2.5rem;
+}
 .home .couple h3 {
     font-family: "Sacramento", cursive;
     font-size: 4rem;
