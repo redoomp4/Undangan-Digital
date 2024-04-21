@@ -380,4 +380,7 @@
         font-size: 1.3rem;
         text-align: center;
     }
+    .mynavbar .navbar-brand{
+        font-size: 1.1rem;
+    }
 }
