@@ -109,7 +109,7 @@
 .home {
     background-image: url(img/b2.jpg);
     background-size: cover;
-    min-height: 100vh;
+    min-height: 50vh;
     margin-top: -4rem;
     padding-top: 10rem;
     padding-bottom: 5rem;
