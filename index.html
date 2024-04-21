@@ -37,11 +37,11 @@
       <h4>
         Kepada Bapak/Ibu/Saudara/i,
       </h4>
-      <h2>Keluarga Ahmad</h2>
+      <h2><span></span></h2>
       <p>Tanpa mengurangi rasa hormat, Kami mengundang anda untuk hadir <br>
         di acara resepsi pernikahan kami yang akan berlangsung dalam:</p>
       <div class="simply-countdown"></div>
-      <a href="#home" class="btn btn-lg mt-3" onClick="enableScroll()">Lihat Undangan</a>
+      <a href="#Undangan" class="btn btn-lg mt-3" onClick="enableScroll()">Lihat Undangan</a>
     </main>
 
   </section>
@@ -126,7 +126,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 col-10 text-center">
-          <h2></h2>
+          <h2>Informasi Acara</h2>
           <p class="alamat">Alamat: Gedung Victory <br>Jl. Jenderal Sudirman No.429, Damai, <br>Balikpapan Selatan, Kota
             Balikpapan,Kalimantan Timur 76114 <!--berikan alamat--></p>
           <iframe
@@ -251,7 +251,8 @@
       </div>
 
       <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" method="POST"
-        action="https://script.google.com/macros/s/AKfycbzWezc2kjKXwLxI6UNu2HI5GCmE4nKDE76nXBdtDzr04xbQRtwMb6ACwGTIbVxqeN4-/exec" id="my-form">
+        action="https://script.google.com/macros/s/AKfycbzWezc2kjKXwLxI6UNu2HI5GCmE4nKDE76nXBdtDzr04xbQRtwMb6ACwGTIbVxqeN4-/exec"
+        id="my-form">
         <div class="col-12">
           <div class="mb-3">
             <label for="nama" class="form-label">Nama</label>
@@ -367,8 +368,8 @@
 
 
     function disableScroll() {
-       scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-       scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+      scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
       window.onscroll = function () {
         window.scrollTo(scrollTop, scrollLeft);
 
@@ -405,13 +406,13 @@
     disableScroll();
 
   </script>
- <script>
+  <script>
     const urlParams = new URLSearchParams(window.location.search);
     const nama = urlParams.get('nama');
     const pronoun = urlParams.get
     console.log(nama);
 
-    const namaContainer = document.querySelector('.hero h2');
+    const namaContainer = document.querySelector('.hero h2 span');
     namaContainer.innerText = nama;
 
 
