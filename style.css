@@ -380,4 +380,8 @@
         padding: 40px;
         margin: 5px;
     }
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
 }
