@@ -137,9 +137,11 @@
 }
 
 .home .couple {
-    margin-top: 100px;
+    margin-top: 70px;
 }
-
+.home .couple .redo h3 {
+    margin-bottom: 2rem;
+}
 
 .home .couple h3 {
     font-family: "Sacramento", cursive;
