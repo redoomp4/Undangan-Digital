@@ -351,7 +351,7 @@
 }
 
 /** tablet */
-@media (max-width: 800px) {
+@media (max-width: 400px) {
     html {
         font-size: 65%;
     }
@@ -370,7 +370,7 @@
 
 
 /** mobile phone */
-@media (max-width: 600px) {
+@media (max-width: 200px) {
     html {
         font-size: 60%;
     }
@@ -380,5 +380,8 @@
         margin: 5px;
     }
     
-    
+    .mynavbar .nav-link {
+        font-size: 2rem;
+        text-align: center;
+    }
 }
