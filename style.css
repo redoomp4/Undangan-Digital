@@ -173,7 +173,7 @@
 
 .home .couple .redo h3 {
     font-family: "Sacramento", cursive;
-    font-size: 2.3rem;
+    font-size: 2.6rem;
     color: var(--black);
     font-weight: bold;
     
@@ -408,7 +408,7 @@
     }
 
     .simply-countdown>.simply-section {
-        padding: 40px;
+        padding: 35px;
         margin: 5px;
     }
     .mynavbar .nav-link {
@@ -417,5 +417,17 @@
     }
     .mynavbar .navbar-brand{
         font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 550;
+        margin-top: 10rem;
+    
+    }
+
+    .hero h2 {
+        margin-top: 8rem;   
     }
 }
