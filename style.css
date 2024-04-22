@@ -52,7 +52,7 @@
 
 .hero h2 {
     font-family: "Sacramento", cursive;
-    /* margin-bottom: 1rem; */
+   margin-top: 2rem ;
     font-size: 6rem;
     font-weight: bold;
     color: #ff81b7;
@@ -69,6 +69,7 @@
     font-size: 1.4rem;
     font-family: "Work Sans", sans-serif;
     font-weight: 550;
+    margin-top: 3.6rem;
 
 }
 
@@ -155,9 +156,10 @@
 }
 .home .couple h3 {
     font-family: "Sacramento", cursive;
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: var(--black);
     font-weight: bold;
+    margin-top: 2rem;
 }
 
 
@@ -171,9 +173,10 @@
 
 .home .couple .redo h3 {
     font-family: "Sacramento", cursive;
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     color: var(--black);
     font-weight: bold;
+    
 }
 
 
